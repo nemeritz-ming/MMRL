@@ -1,4 +1,5 @@
-# /Users/ming/enter/envs/myenv/bin/python3.8 /Users/ming/Documents/Project/My_code/RL_based_model/testing_RL_agent.py
+### this is the result of RL_model without transaction fee. ### 
+
 # 155558
 # score: 0.001681199999998384 idx 0
 # score: 0.0012999999999987466 idx 1
