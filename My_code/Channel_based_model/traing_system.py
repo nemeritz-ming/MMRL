@@ -11,7 +11,6 @@ from histogram import combine, plot_bar
 
 MAX_ACCOUNT_BALANCE = 2147483647
 INITIAL_ACCOUNT_BALANCE = 1000000
-MAX_INT = sys.maxsize
 Trading_Records = []
 
 class StockTradingEnv(gym.Env):
@@ -28,7 +27,6 @@ class StockTradingEnv(gym.Env):
         self.action_space = spaces.Box(
             low=np.array([0, 1]), high=np.array([3, 2]), dtype=np.float16)
 
-        # Prices contains the OHCL values for the last five prices
         self.observation_space = spaces.Box(
             low=0, high=1, shape=(8,), dtype=np.float16)
 
